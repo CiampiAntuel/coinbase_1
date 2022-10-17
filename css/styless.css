@@ -1,0 +1,36 @@
+*, html {
+  margin: 0 !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid black;
+}
+
+img {
+  margin-left: 1rem !important;
+  width: 8rem;
+}
+
+ul a {
+  display: inline;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+ul a:hover {
+  color: black;
+  text-decoration: underline blue;
+}
+
+.btn-primary {
+  width: 9rem;
+  margin-right: 6rem !important;
+}
+
+/*# sourceMappingURL=styless.css.map */

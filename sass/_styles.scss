@@ -1,0 +1,362 @@
+$color-primary: #0D6EFD;
+$grey: #6b6565;
+
+
+
+*{
+    margin: 0 !important;
+}
+
+html{
+    min-height: 300%;
+
+    i{
+        color: $color-primary;
+    }
+}
+
+//Header (imagen,links,sign)
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+.head_img{
+    margin-left: 1rem !important;
+    width: 8rem;
+}
+
+ul{
+    padding-left: 0 !important;
+
+    a{
+        display: inline;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        padding-left: 1rem;
+
+
+        &:hover{
+            color: black;
+            text-decoration: underline #000000;
+        }
+    }
+}
+
+//Buttons
+
+.buttons{
+    display: flex;
+    align-items: center;
+    height: 3rem ;
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.btn-primary{
+    margin-right: 2rem !important;
+    
+    a{
+        color:white;
+
+        &:hover{
+            color: white;
+        }
+    }
+}
+
+.btn-2{
+    margin-right: 1rem !important;
+
+    a{
+        color: #000000;
+        font-weight: 500;
+        border: none;
+
+        &:hover{
+            color: #000000;
+            text-decoration: underline 1px black;
+        }
+    }
+
+}
+
+//Jumbotron
+
+.jumbo{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+
+    form{
+        height: 2rem;
+        display: flex;
+        margin-top: 1rem !important;
+
+        input{
+            margin-right: 0.5rem !important;
+            flex-grow: 1;
+            border: 1px rgba(0, 0, 0, 0.466) solid;
+            border-radius: 5px;
+            }
+
+        button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        }
+    }
+
+.jumbo_text{
+    width: 20%;
+    margin-right: 10rem !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_text{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $color-primary;
+
+    a{
+        text-decoration: none;
+    }
+
+    .bi-arrow-right{
+        padding-left: 0.5rem;
+        color: $color-primary;
+    }
+}
+
+.mid_text{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem !important;
+}
+
+.bottom_text{
+    color: #000000ef;
+    font-weight: 600;
+}
+
+//Crypto portfolio
+
+.portfolio{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: $grey;
+    font-weight: 500;
+
+    .first{
+        font-size: 2rem;
+        font-weight: 600;
+        color: #000000;
+    }
+}
+
+.management{
+    display: flex;
+    margin-top: 4rem !important;
+    justify-content: space-between;
+}
+
+.item{
+    display: flex;
+    width: 15vw;
+    margin-bottom: 1rem !important;
+} 
+
+.portfolio{
+    i{
+        display: flex;
+        padding: 5px;
+        padding-right: 1rem !important;
+        color: $color-primary;
+    }
+}
+
+.portf_management{
+    margin-bottom: 0.3rem !important;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.portf_text{
+    color: $grey;
+    font-weight: 600;
+}
+
+//Trusting
+
+.trusting{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+.trusting_gral{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.why_trusting{
+    display: flex;
+    justify-content: space-evenly;
+
+    .trust_div{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        i{
+            font-size: 4rem;
+            padding-bottom: 1.5rem;
+        }
+
+        a{
+            align-items: flex-end;
+            width: 80%;
+            text-decoration: none;
+        }
+    }
+}
+
+.trust_text{
+    padding: 1.5rem;
+    color:$grey;
+    
+}
+
+.trust_first{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+//Numbers
+
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: $color-primary;
+    color: white;
+    height: 10rem;
+
+    .mayor{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .minus_numbers{
+        font-size: 0.9rem;
+        font-weight: lighter;
+    }
+}
+
+//Get started
+
+.getstarted_gen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start_now{
+    text-align: center;
+    padding: 5rem 0;
+    font-weight: 600;
+    color: $grey;
+    font-size: 1.5rem;
+
+    .minutes{
+        color: #000000;
+        font-size: 2.5rem;
+    }
+}
+
+.account_creation{
+    width: 60vw;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+    p{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    i{
+        font-size: 6rem;
+    }
+
+    hr{
+        transform:rotate(90deg);
+        border: 1px solid black;
+    }
+    
+    padding-bottom: 5rem;
+}
+
+//Footer
+
+.footer{
+    background-color: #F4F7FE;
+    padding-bottom: 7rem;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+
+    button{
+        font-size: 0.9rem;
+        padding: 5px 15px;
+        font-weight: 400;
+    }
+}
+
+.footer_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20rem;
+    font-weight: 600;
+
+    .footer_first{
+        padding-top: 3rem;
+        font-size: 3rem;
+    }
+
+    .footer_second{
+        width: 70%;
+        padding: 2rem 0rem;
+        font-size: 1.5rem;
+        color: $grey;
+    }
+}
